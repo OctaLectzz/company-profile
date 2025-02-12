@@ -17,8 +17,8 @@ const Location = () => {
         <Row className="my-5">
           {['Klaten', 'Solo', 'Karanganyar', 'Semarang', 'Boyolali', 'Palembang'].map((location, index) => (
             <Col md={4} className="mb-4" key={index}>
-              <Card className="h-100 p-4">
-                <Card.Img variant="top" src={`/img/location/${location}.jpg`} />
+              <Card className="h-100 p-4 location-card">
+                <Card.Img variant="top" src={`/img/location/${location}.jpg`} className="location-img" />
                 <Card.Body>
                   <Card.Title className="my-4">{location}</Card.Title>
                   <p>{location}</p>
