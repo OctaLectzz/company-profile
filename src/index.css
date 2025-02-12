@@ -1,0 +1,14 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.location-img {
+  transition: transform 0.5s ease;
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.location-img:hover {
+  transform: scale(1.06) rotate(3deg);
+}
