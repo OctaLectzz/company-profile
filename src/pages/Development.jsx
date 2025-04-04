@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Development = () => {
   return (
@@ -20,11 +21,11 @@ const Development = () => {
       {/* Detail Section */}
       <section id="development-detail">
         <Row className="my-5">
-          <Col md={6} className="p-3">
+          <Col as={Link} to="/puri-amarta" md={6} className="p-3">
             <img src="/img/Amarta.jpeg" className="img-fluid rounded-4 my-2" alt="Puri Amarta" style={{ boxShadow: '2px 3px 14px #000' }} />
             <div className="text-center fw-bold fs-5">Puri Amarta</div>
           </Col>
-          <Col md={6} className="p-3">
+          <Col as={Link} to="/graha-mulya-ketandan" md={6} className="p-3">
             <img src="/img/Ketandan.jpeg" className="img-fluid rounded-4 my-2" alt="Graha Mulya Ketandan" style={{ boxShadow: '2px 3px 14px #000' }} />
             <div className="text-center fw-bold fs-5">Graha Mulya Ketandan</div>
           </Col>

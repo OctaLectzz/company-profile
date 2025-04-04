@@ -17,8 +17,8 @@ const Home = () => {
               <h2>PT. LESTARI MULYA RESIDENCE</h2>
               <p className="my-4">
                 Sejak tahun 2008, PT. LESTARI MULYA RESIDENCE telah berkomitmen untuk mengembangkan properti yang mampu menjawab kebutuhan dan keinginan konsumen di berbagai wilayah. Hingga hari ini,
-                PT. LESTARI MULYA RESIDENCE berhasil mengembangkan beberapa perumahan seperti Puri Amarta dan Graha Mulya Ketandan dengan wilayah yang meliputi Boyolali, Karanganyar,
-                Sukoharjo, dan Klaten.
+                PT. LESTARI MULYA RESIDENCE berhasil mengembangkan beberapa perumahan seperti Puri Amarta dan Graha Mulya Ketandan dengan wilayah yang meliputi Boyolali, Karanganyar, Sukoharjo, dan
+                Klaten.
               </p>
               <Link to="/about-us" className="text-secondary fw-bold" style={{ textDecoration: 'none' }}>
                 More...
@@ -40,11 +40,11 @@ const Home = () => {
             </p>
           </div>
           <Row className="my-4">
-            <Col md={6} className="p-3">
+            <Col as={Link} to="/puri-amarta" md={6} className="p-3">
               <img src="/img/Amarta.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Anggrek" style={{ boxShadow: '2px 3px 14px #000' }} />
               <div className="text-white text-center fw-bold fs-5">Puri Amarta</div>
             </Col>
-            <Col md={6} className="p-3">
+            <Col as={Link} to="/graha-mulya-ketandan" md={6} className="p-3">
               <img src="/img/Ketandan.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Melati" style={{ boxShadow: '2px 3px 14px #000' }} />
               <div className="text-white text-center fw-bold fs-5">Graha Mulya Ketandan</div>
             </Col>
