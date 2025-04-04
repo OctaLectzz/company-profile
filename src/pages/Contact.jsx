@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="w-full h-[800px] mt-10">
           <iframe
             title="Google Maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.3410831583476!2d110.6064821764647!3d-7.640611992403913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a42c1a50e6f7d%3A0x5027a76e3566ea0!2sJl.%20Pemuda%20No.138%2C%20Klaten%2C%20Kota%20Klaten%2C%20Jawa%20Tengah%2057421!5e0!3m2!1sid!2sid!4v1712234567890!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d988.560100693524!2d110.7264174!3d-7.657281!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3fd22b026d4d%3A0x1ee491515ac6d345!2sKantor%20Pemasaran%20Puri%20Amarta%20Juwiring!5e0!3m2!1sid!2sid!4v1743757150039!5m2!1sid!2sid"
             width="100%"
             height="500px"
             className="border-0"
