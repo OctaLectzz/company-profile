@@ -7,9 +7,9 @@ const Development = () => {
       <section id="development">
         <h2 className="text-primary">Development</h2>
         <p className="my-4">
-          PT. LESTARI MULYA RESIDENCE mengembangkan berbagai proyek properti yang tersebar di berbagai wilayah. Pengembangan proyek dilakukan untuk menjawab kebutuhan dan keinginan pasar dengan komitmen tinggi,
-          produk berkualitas, inovatif serta memiliki jaminan legal. Mengusung konsep Modern Minimalis yang berwawasan lingkungan, PT. LESTARI MULYA RESIDENCE menyediakan beragam pilihan hunian yang membantu
-          meningkatkan kualitas hidup seluruh penghuninya.
+          PT. LESTARI MULYA RESIDENCE mengembangkan berbagai proyek properti yang tersebar di berbagai wilayah. Pengembangan proyek dilakukan untuk menjawab kebutuhan dan keinginan pasar dengan
+          komitmen tinggi, produk berkualitas, inovatif serta memiliki jaminan legal. Mengusung konsep Modern Minimalis yang berwawasan lingkungan, PT. LESTARI MULYA RESIDENCE menyediakan beragam
+          pilihan hunian yang membantu meningkatkan kualitas hidup seluruh penghuninya.
         </p>
         <p className="my-4">
           Pengembangan proyek properti dilakukan dengan dua nama proyek yaitu <b>Taman Anggrek</b> dan <b>Taman Melati</b>. Kedua proyek perumahan ini dikembangkan dengan spesifikasi yang berbeda-beda
@@ -21,12 +21,12 @@ const Development = () => {
       <section id="development-detail">
         <Row className="my-5">
           <Col md={6} className="p-3">
-            <img src="/img/taman-anggrek.jpg" className="img-fluid rounded-4 my-2" alt="Taman Anggrek" style={{ boxShadow: '2px 3px 14px #000' }} />
-            <div className="text-primary text-center fw-bold fs-5">Taman Anggrek</div>
+            <img src="/img/Amarta.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Anggrek" style={{ boxShadow: '2px 3px 14px #000' }} />
+            <div className="text-white text-center fw-bold fs-5">Puri Amarta</div>
           </Col>
           <Col md={6} className="p-3">
-            <img src="/img/taman-melati.jpg" className="img-fluid rounded-4 my-2" alt="Taman Melati" style={{ boxShadow: '2px 3px 14px #000' }} />
-            <div className="text-primary text-center fw-bold fs-5">Taman Melati</div>
+            <img src="/img/Ketandan.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Melati" style={{ boxShadow: '2px 3px 14px #000' }} />
+            <div className="text-white text-center fw-bold fs-5">Graha Mulya Ketandan</div>
           </Col>
         </Row>
       </section>
