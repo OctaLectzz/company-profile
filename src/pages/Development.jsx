@@ -22,11 +22,11 @@ const Development = () => {
         <Row className="my-5">
           <Col md={6} className="p-3">
             <img src="/img/Amarta.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Anggrek" style={{ boxShadow: '2px 3px 14px #000' }} />
-            <div className="text-white text-center fw-bold fs-5">Puri Amarta</div>
+            <div className="text-center fw-bold fs-5">Puri Amarta</div>
           </Col>
           <Col md={6} className="p-3">
             <img src="/img/Ketandan.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Melati" style={{ boxShadow: '2px 3px 14px #000' }} />
-            <div className="text-white text-center fw-bold fs-5">Graha Mulya Ketandan</div>
+            <div className="text-center fw-bold fs-5">Graha Mulya Ketandan</div>
           </Col>
         </Row>
       </section>
