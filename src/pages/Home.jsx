@@ -8,20 +8,21 @@ const Home = () => {
       {/* Hero Section */}
       <section id="hero-home" style={{ backgroundColor: '#0d1321', padding: '120px 0' }}>
         <Container className="text-light py-5">
-          <Row className="align-items-center">
-            <Col md={6}>
+          <div className="float-end">
+            <img src="/img/lestari mulya2.png" alt="logo" width={500} className="p-4" />
+          </div>
+
+          <Row className="flex items-center justify-content-between">
+            <Col md={10}>
               <h2>PT. LESTARI MULYA RESIDENCE</h2>
               <p className="my-4">
                 Sejak tahun 2008, PT. LESTARI MULYA RESIDENCE telah berkomitmen untuk mengembangkan properti yang mampu menjawab kebutuhan dan keinginan konsumen di berbagai wilayah. Hingga hari ini,
-                PT. LESTARI MULYA RESIDENCE berhasil mengembangkan dua identitas perumahan yaitu Taman Anggrek dan Taman Melati dengan wilayah operasi meliputi Solo, Klaten, Karanganyar, Boyalali,
-                Semarang, Kebumen, Banjarnegara, Pati, dan Sukoharjo.
+                PT. LESTARI MULYA RESIDENCE berhasil mengembangkan beberapa perumahan seperti Puri Amarta dan Graha Mulya Ketandan dengan wilayah yang meliputi Boyolali, Karanganyar,
+                Sukoharjo, dan Klaten.
               </p>
               <Link to="/about-us" className="text-secondary fw-bold" style={{ textDecoration: 'none' }}>
                 More...
               </Link>
-            </Col>
-            <Col md={6}>
-              <iframe width="100%" height="308px" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" frameBorder="0" allowFullScreen></iframe>
             </Col>
           </Row>
         </Container>
