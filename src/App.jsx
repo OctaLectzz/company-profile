@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NavbarComponent from '/src/components/Navbar'
 import FooterComponent from '/src/components/Footer'
 import Home from '/src/pages/Home'
+import Show from '/src/pages/Show'
 import About from '/src/pages/About'
 import Development from '/src/pages/Development'
 import Location from '/src/pages/Location'
@@ -13,6 +14,7 @@ function App() {
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/:slug" element={<Show />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/development" element={<Development />} />
         <Route path="/location" element={<Location />} />

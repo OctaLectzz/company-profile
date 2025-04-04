@@ -56,13 +56,13 @@ const FooterComponent = () => {
             <h5 className="text-secondary fw-bold my-3">Media</h5>
             <ul className="list-unstyled">
               <li className="my-2">
-                <a href="#" className="text-light fw-bold" style={{ textDecoration: 'none' }}>
+                <a href="https://www.instagram.com/puriamartajuwiring_/?igsh=MTJobXAxd280ZGNoOQ%3D%3D# " className="text-light fw-bold" style={{ textDecoration: 'none' }}>
                   Instagram
                 </a>
               </li>
               <li className="my-2">
-                <a href="#" className="text-light fw-bold" style={{ textDecoration: 'none' }}>
-                  Facebook
+                <a href="https://www.tiktok.com/@puri.amarta5?is_from_webapp=1&sender_device=pc" className="text-light fw-bold" style={{ textDecoration: 'none' }}>
+                  Tiktok
                 </a>
               </li>
               <li className="my-2">

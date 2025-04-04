@@ -7,8 +7,8 @@ const Development = () => {
       <section id="development">
         <h2 className="text-primary">Development</h2>
         <p className="my-4">
-          Kotabaru Land mengembangkan berbagai proyek properti yang tersebar di berbagai wilayah. Pengembangan proyek dilakukan untuk menjawab kebutuhan dan keinginan pasar dengan komitmen tinggi,
-          produk berkualitas, inovatif serta memiliki jaminan legal. Mengusung konsep Modern Minimalis yang berwawasan lingkungan, Kotabaru Land menyediakan beragam pilihan hunian yang membantu
+          PT. LESTARI MULYA RESIDENCE mengembangkan berbagai proyek properti yang tersebar di berbagai wilayah. Pengembangan proyek dilakukan untuk menjawab kebutuhan dan keinginan pasar dengan komitmen tinggi,
+          produk berkualitas, inovatif serta memiliki jaminan legal. Mengusung konsep Modern Minimalis yang berwawasan lingkungan, PT. LESTARI MULYA RESIDENCE menyediakan beragam pilihan hunian yang membantu
           meningkatkan kualitas hidup seluruh penghuninya.
         </p>
         <p className="my-4">

@@ -1,0 +1,35 @@
+[
+  {
+    "img": "amarta",
+    "title": "Juiring",
+    "desc": "Puri Amarta",
+    "slug": "puri-amarta",
+    "name": "PURI AMARTA",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla pellentesque mauris eget viverra. Proin egestas magna quis pretium pharetra. Cras ullamcorper nulla eu vulputate tristique. Ut non dictum sapien. Curabitur consequat bibendum viverra. Pellentesque lorem massa, euismod quis laoreet eu, fringilla et urna. Ut ultrices lacus nec mauris facilisis volutpat. Cras posuere ex sit amet felis elementum tempus quis eget risus. Curabitur fermentum molestie felis, vel tristique nibh finibus non. Sed fermentum, elit at condimentum facilisis, dui risus placerat arcu, nec interdum massa odio vel elit. Integer at blandit dui, finibus scelerisque ligula. Fusce sollicitudin enim at justo sagittis ultrices. Curabitur mauris lacus, dictum id sollicitudin id, malesuada in erat. In purus leo, ultrices quis fermentum nec, hendrerit sit amet dolor. Aliquam massa lacus, suscipit id sem nec, convallis tincidunt dui. Nunc velit dui, sodales at sapien vestibulum, euismod fringilla enim",
+    "image": "/img/3d-amarta.jpeg",
+    "denah": ["/img/denah/amarta-1.png", "/img/denah/amarta-2.png"],
+    "spec": ["batu kapur", "herbel", "kayu manis", "rotan", "besi proyek", "kaca mata", "aspal", "pasir merapi", "semen 1kg", "tepung terigu", "kapur ajaib", "garam secukupnya"]
+  },
+  {
+    "img": "ketandan",
+    "title": "Ketandan",
+    "desc": "Graha Mulya Ketandan",
+    "slug": "graha-mulya-ketandan",
+    "name": "GRAHA MULYA KETANDAN",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla pellentesque mauris eget viverra. Proin egestas magna quis pretium pharetra. Cras ullamcorper nulla eu vulputate tristique. Ut non dictum sapien. Curabitur consequat bibendum viverra. Pellentesque lorem massa, euismod quis laoreet eu, fringilla et urna. Ut ultrices lacus nec mauris facilisis volutpat. Cras posuere ex sit amet felis elementum tempus quis eget risus. Curabitur fermentum molestie felis, vel tristique nibh finibus non. Sed fermentum, elit at condimentum facilisis, dui risus placerat arcu, nec interdum massa odio vel elit. Integer at blandit dui, finibus scelerisque ligula. Fusce sollicitudin enim at justo sagittis ultrices. Curabitur mauris lacus, dictum id sollicitudin id, malesuada in erat. In purus leo, ultrices quis fermentum nec, hendrerit sit amet dolor. Aliquam massa lacus, suscipit id sem nec, convallis tincidunt dui. Nunc velit dui, sodales at sapien vestibulum, euismod fringilla enim",
+    "image": "/img/3d-ketandan.jpeg",
+    "denah": ["/img/denah/ketandan-1.png", "/img/denah/ketandan-2.png"],
+    "spec": ["batu kapur", "herbel", "kayu manis", "rotan", "besi proyek", "kaca mata", "aspal", "pasir merapi", "semen 1kg", "tepung terigu", "kapur ajaib", "garam secukupnya"]
+  },
+  {
+    "img": "coming-soon",
+    "title": "Coming Soon",
+    "desc": "Coming Soon",
+    "slug": "coming-soon",
+    "name": "COMING SOON",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla pellentesque mauris eget viverra. Proin egestas magna quis pretium pharetra. Cras ullamcorper nulla eu vulputate tristique. Ut non dictum sapien. Curabitur consequat bibendum viverra. Pellentesque lorem massa, euismod quis laoreet eu, fringilla et urna. Ut ultrices lacus nec mauris facilisis volutpat. Cras posuere ex sit amet felis elementum tempus quis eget risus. Curabitur fermentum molestie felis, vel tristique nibh finibus non. Sed fermentum, elit at condimentum facilisis, dui risus placerat arcu, nec interdum massa odio vel elit. Integer at blandit dui, finibus scelerisque ligula. Fusce sollicitudin enim at justo sagittis ultrices. Curabitur mauris lacus, dictum id sollicitudin id, malesuada in erat. In purus leo, ultrices quis fermentum nec, hendrerit sit amet dolor. Aliquam massa lacus, suscipit id sem nec, convallis tincidunt dui. Nunc velit dui, sodales at sapien vestibulum, euismod fringilla enim",
+    "image": "/img/3d-coming-soon.jpeg",
+    "denah": ["/img/denah/coming-soon-1.png", "/img/denah/coming-soon-2.png"],
+    "spec": []
+  }
+]

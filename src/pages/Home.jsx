@@ -1,5 +1,6 @@
-import { Container, Button, Card, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import Location from '/src/components/Location'
 
 const Home = () => {
   return (
@@ -9,11 +10,11 @@ const Home = () => {
         <Container className="text-light py-5">
           <Row className="align-items-center">
             <Col md={6}>
-              <h2>KOTA BARU LAND</h2>
+              <h2>PT. LESTARI MULYA RESIDENCE</h2>
               <p className="my-4">
-                Sejak tahun 2008, Kotabaru Land telah berkomitmen untuk mengembangkan properti yang mampu menjawab kebutuhan dan keinginan konsumen di berbagai wilayah. Hingga hari ini, Kotabaru Land
-                berhasil mengembangkan dua identitas perumahan yaitu Taman Anggrek dan Taman Melati dengan wilayah operasi meliputi Solo, Klaten, Karanganyar, Boyalali, Semarang, Kebumen,
-                Banjarnegara, Pati, dan Sukoharjo.
+                Sejak tahun 2008, PT. LESTARI MULYA RESIDENCE telah berkomitmen untuk mengembangkan properti yang mampu menjawab kebutuhan dan keinginan konsumen di berbagai wilayah. Hingga hari ini,
+                PT. LESTARI MULYA RESIDENCE berhasil mengembangkan dua identitas perumahan yaitu Taman Anggrek dan Taman Melati dengan wilayah operasi meliputi Solo, Klaten, Karanganyar, Boyalali,
+                Semarang, Kebumen, Banjarnegara, Pati, dan Sukoharjo.
               </p>
               <Link to="/about-us" className="text-secondary fw-bold" style={{ textDecoration: 'none' }}>
                 More...
@@ -32,8 +33,9 @@ const Home = () => {
           <h1 className="text-primary text-center mb-4">DEVELOPMENT</h1>
           <div className="d-flex justify-content-center">
             <p className="text-center" style={{ maxWidth: '500px', color: '#817A88' }}>
-              Kota Baru Land berkomitmen untuk selalu memberikan pelayanan secara profesional dengan mengedepankan produk berkualitas, dinamis, inovatif, dan legal. Kota Baru Land menyediakan berbagai
-              cakupan produk-produk yang disesuaikan dengan kebutuhan pasar, serta menguasai pengetahuan mendalam mengenai pangsa pasar dan kemampuan menanggulangi masalah secara bijaksana.
+              PT. LESTARI MULYA RESIDENCE berkomitmen untuk selalu memberikan pelayanan secara profesional dengan mengedepankan produk berkualitas, dinamis, inovatif, dan legal. PT. LESTARI MULYA
+              RESIDENCE menyediakan berbagai cakupan produk-produk yang disesuaikan dengan kebutuhan pasar, serta menguasai pengetahuan mendalam mengenai pangsa pasar dan kemampuan menanggulangi
+              masalah secara bijaksana.
             </p>
           </div>
           <Row className="my-4">
@@ -54,38 +56,7 @@ const Home = () => {
       <section id="location-home">
         <Container className="py-5 bg-light">
           <h2 className="text-primary mb-4 fs-1">Lokasi</h2>
-          <Row>
-            {[
-              {
-                img: 'amarta',
-                title: 'Juiring',
-                desc: 'Puri Amarta'
-              },
-              {
-                img: 'ketandan',
-                title: 'Ketandan',
-                desc: 'Graha Mulya Ketandan'
-              },
-              {
-                img: 'coming-soon',
-                title: 'Coming Soon',
-                desc: ''
-              },
-            ].map((location, index) => (
-              <Col md={4} className="mb-4" key={index}>
-                <Card className="h-100 p-4 location-card">
-                  <Card.Img variant="top" src={`/img/location/${location.img}.jpeg`} className="location-img" />
-                  <Card.Body>
-                    <Card.Title className="my-4">{location.title}</Card.Title>
-                    <p>{location.desc}</p>
-                    <Button variant="secondary" size="lg" className="text-primary">
-                      Lihat Detail
-                    </Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))}
-          </Row>
+          <Location />
         </Container>
       </section>
     </>
