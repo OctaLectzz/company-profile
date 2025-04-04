@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const FooterComponent = () => {
   return (
-    <footer className="text-light" style={{ backgroundColor: '#0B2240', padding: '80px 0' }}>
+    <footer className="text-light" style={{ backgroundColor: '#0d1321', padding: '80px 0' }}>
       <Container>
-        <img src="/img/logo.png" alt="logo" width={130} className="my-4" />
+        <img src="/img/lestari mulya2.png" alt="logo" width={130} className="my-4" />
         <Row>
           <Col md={6}>
-            <h5>Kota Baru Land Office</h5>
+            <h5>PT LESTARI MULYA RESIDENCE</h5>
             <div>Jl. Pemuda No. 138 Klaten</div>
             <div>Telp. 0272-327 929 Mobile 0811 257 792</div>
           </Col>

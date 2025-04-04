@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <section id="hero-home" style={{ backgroundColor: '#0B2240', padding: '120px 0' }}>
+      <section id="hero-home" style={{ backgroundColor: '#0d1321', padding: '120px 0' }}>
         <Container className="text-light py-5">
           <Row className="align-items-center">
             <Col md={6}>
@@ -38,16 +38,16 @@ const Home = () => {
           </div>
           <Row className="my-4">
             <Col md={6} className="p-3">
-              <img src="/img/taman-anggrek.jpg" className="img-fluid rounded-4 my-2" alt="Taman Anggrek" style={{ boxShadow: '2px 3px 14px #000' }} />
-              <div className="text-white text-center fw-bold fs-5">Taman Anggrek</div>
+              <img src="/img/Amarta.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Anggrek" style={{ boxShadow: '2px 3px 14px #000' }} />
+              <div className="text-white text-center fw-bold fs-5">Puri Amarta</div>
             </Col>
             <Col md={6} className="p-3">
-              <img src="/img/taman-melati.jpg" className="img-fluid rounded-4 my-2" alt="Taman Melati" style={{ boxShadow: '2px 3px 14px #000' }} />
-              <div className="text-white text-center fw-bold fs-5">Taman Melati</div>
+              <img src="/img/Ketandan.jpeg" className="img-fluid rounded-4 my-2" alt="Taman Melati" style={{ boxShadow: '2px 3px 14px #000' }} />
+              <div className="text-white text-center fw-bold fs-5">Graha Mulya Ketandan</div>
             </Col>
           </Row>
         </Container>
-        <div style={{ backgroundColor: '#0B2240', padding: '80px 0', marginTop: '-210px', zIndex: '99' }} />
+        <div style={{ backgroundColor: '#0d1321', padding: '80px 0', marginTop: '-210px', zIndex: '99' }} />
       </section>
 
       {/* Location Section */}
@@ -55,13 +55,29 @@ const Home = () => {
         <Container className="py-5 bg-light">
           <h2 className="text-primary mb-4 fs-1">Lokasi</h2>
           <Row>
-            {['Klaten', 'Solo', 'Karanganyar', 'Semarang', 'Boyolali', 'Palembang'].map((location, index) => (
+            {[
+              {
+                img: 'amarta',
+                title: 'Juiring',
+                desc: 'Puri Amarta'
+              },
+              {
+                img: 'ketandan',
+                title: 'Ketandan',
+                desc: 'Graha Mulya Ketandan'
+              },
+              {
+                img: 'coming-soon',
+                title: 'Coming Soon',
+                desc: ''
+              },
+            ].map((location, index) => (
               <Col md={4} className="mb-4" key={index}>
                 <Card className="h-100 p-4 location-card">
-                  <Card.Img variant="top" src={`/img/location/${location}.jpg`} className="location-img" />
+                  <Card.Img variant="top" src={`/img/location/${location.img}.jpeg`} className="location-img" />
                   <Card.Body>
-                    <Card.Title className="my-4">{location}</Card.Title>
-                    <p>{location}</p>
+                    <Card.Title className="my-4">{location.title}</Card.Title>
+                    <p>{location.desc}</p>
                     <Button variant="secondary" size="lg" className="text-primary">
                       Lihat Detail
                     </Button>

@@ -7,13 +7,12 @@ const About = () => {
       <section id="about-us">
         <h2 className="text-primary">Tentang Kami</h2>
         <p className="my-4">
-          Kotabaru Land didirikan di Klaten pada tahun 2008 dengan nama PT. Indah Pratama Grida. Sejak awal berdirinya, Kotabaru Land telah memutuskan untuk bergerak di bidang properti dengan cakupan
-          bisnis yang meliouti perumahan, ruko, atau properti komersial strategis lainnya.
+          PT. Lestari Mulya Residence sebelum berdiri secara badan hukum telah memiliki berbagai pengalaman di bidang properti di Area Solo Raya. Bidang properti yang kami jalankan berupa pembangunan
+          perumahan dan kavling siap bangun. Kami sudah mendirikan beberapa perumahan di Kabupaten Boyolali, Karanganyar, Sukoharjo, dan Klaten.
         </p>
         <p className="my-4">
-          Hingga hari ini, Kotabaru Land telah berhasil mengembangkan puluhan proyek properti komersil di berbagai wilayah. Mengusung nama Taman Anggrek dan Taman Melati sebagai identitas perumahan
-          pada tahap pengembangan awal, Kotabaru Land telah berhasil memperluas wilayah operasinya di wilayah Solo, Klaten, Boyalali, Karanganyar, Semarang, Kebumen, Banjarnegara, Pati, dan Sukoharjo,
-          dan kota kota lainnya.
+          Setelah melewati perjalanan panjang usaha kami, dan untuk mengejar Visi dan Misi kami, maka pada bulan Desember 2020 kami membuat badan usaha Perseroan Terbatas/PT. Badan usaha ini
+          diharapkan akan membuat usaha kami semakin kompeten dan diakui dalam bidang properti di skala nasional.
         </p>
       </section>
 
@@ -22,12 +21,16 @@ const About = () => {
         <Row>
           <Col md={6} className="p-5">
             <h5 className="text-primary text-center">Visi</h5>
-            <p>Menjadi perusahaan properti dan konstruksi yang mampu membangun kepercayaan pasar melalui integrasi antara permintaan pasar dan kualitas produk.</p>
+            <p>Menjadi Perusahaan Properti dengan memberikan Produk dan Pelayanan Terbaik.</p>
           </Col>
           <Col md={6} className="p-5">
             <h5 className="text-primary text-center">Misi</h5>
             <p>
-              Menjadi pengembang properti yang menjamin kualitas, legalitas, akurasi waktu, dan efektifitas alokasi biaya untuk memaksimalkan kepuasan konsumen dan pemangku kepentingan secara luas.
+              <ul>
+                <li>Membantu Masyarakat mendapatkan Rumah Idaman,</li>
+                <li>Memaksimalkan Potensi Setiap Daerah Properti yang Dikembangkan,</li>
+                <li>Menjalin hubungan kerja sama dengan mitra usaha yang saling menguntungkan dan berkelanjutan.</li>
+              </ul>
             </p>
           </Col>
         </Row>
@@ -40,29 +43,31 @@ const About = () => {
             <div className="d-flex justify-content-center my-3">
               <img src="/img/service/Komitmen Tinggi.png" width={80} />
             </div>
-            <h6 className="text-primary text-center my-3">Komitmen Tinggi</h6>
-            <p>Kotabaru Land berkomitmen untuk bekerja sepenuh hati dalam upaya mencapai hasil terbaik dan bertanggung jawab terhadap kepentingan konsumen serta pemangku kepentingan.</p>
+            <h6 className="text-primary text-center my-3">Profesionalisme</h6>
+            <p>
+              PT. Lestari Mulya Residence berkomitmen untuk menjalankan bisnis properti dengan profesionalisme tinggi, memberikan pelayanan terbaik, serta menjaga kepercayaan konsumen dan mitra usaha.
+            </p>
           </Col>
           <Col md={3} className="p-3">
             <div className="d-flex justify-content-center my-3">
               <img src="/img/service/Produk Berkualitas.png" width={80} />
             </div>
-            <h6 className="text-primary text-center my-3">Produk Berkualitas</h6>
-            <p>Menciptakan produk berkualitas tinggi yang sesuai dengan kebutuhan dan harapan dari seluruh konsumen.</p>
+            <h6 className="text-primary text-center my-3"> Pembangunan Berkelanjutan</h6>
+            <p>Berfokus pada pengembangan properti yang tidak hanya memberikan manfaat bagi masyarakat, tetapi juga memaksimalkan potensi daerah yang dikembangkan secara berkelanjutan.</p>
           </Col>
           <Col md={3} className="p-3">
             <div className="d-flex justify-content-center my-3">
               <img src="/img/service/Inovatif.png" width={80} />
             </div>
-            <h6 className="text-primary text-center my-3">Inovatif</h6>
-            <p>Mengembangkan inovasi-inovasi mutakhir yang mampu memaksimalkan keseluruhan proses bisnis yang tengah berjalan. </p>
+            <h6 className="text-primary text-center my-3">Kemitraan Strategis</h6>
+            <p>Menjalin hubungan kerja sama yang saling menguntungkan dengan mitra usaha, serta menciptakan jaringan bisnis properti yang solid dan kompetitif di tingkat nasional.</p>
           </Col>
           <Col md={3} className="p-3">
             <div className="d-flex justify-content-center my-3">
               <img src="/img/service/Legal.png" width={80} />
             </div>
-            <h6 className="text-primary text-center my-3">Legal</h6>
-            <p>Menjamin keamanan transaksi properti antara perusahaan dan konsumen melalui bentuk dan jaminan legalitas yang taat pada Undang Undang Republik Indonesia.</p>
+            <h6 className="text-primary text-center my-3">Keabsahan Hukum</h6>
+            <p>Menjamin keamanan dan transparansi dalam setiap transaksi properti melalui legalitas yang telah diakui dan sesuai dengan regulasi yang berlaku di Indonesia</p>
           </Col>
         </Row>
       </section>

@@ -8,7 +8,7 @@ const NavbarComponent = () => {
     <Navbar fixed="top" bg="primary" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img src="/img/logo.png" alt="logo" width={120} />
+          <img src="/img/lestari mulya2.png" alt="logo" width={120} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
