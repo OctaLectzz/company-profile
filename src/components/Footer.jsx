@@ -9,7 +9,7 @@ const FooterComponent = () => {
         <Row>
           <Col md={6}>
             <h5>PT LESTARI MULYA RESIDENCE</h5>
-            <div>Jl. Pemuda No. 138 Klaten</div>
+            <div>Dusun II, Bulurejo, Kec. Juwiring, Kabupaten Klaten, Jawa Tengah 57472</div>
             <div>Telp. 0272-327 929 Mobile 0811 257 792</div>
           </Col>
           <Col md={2}>
